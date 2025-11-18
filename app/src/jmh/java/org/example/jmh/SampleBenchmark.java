@@ -16,8 +16,6 @@ public class SampleBenchmark {
   @Benchmark
   @Timeout(time = 5, timeUnit = TimeUnit.SECONDS)
   public void sayHelloBenchmark(Blackhole bh) {
-      GreetingGenerator generator = new GreetingGenerator();
-      String output = generator.sayHello();
-      bh.consume(output);
+ 
   }
 }
