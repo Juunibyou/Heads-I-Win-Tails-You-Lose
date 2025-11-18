@@ -1,6 +1,5 @@
 package org.example.jmh;
 
-import org.example.GreetingGenerator;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.annotations.Warmup;
