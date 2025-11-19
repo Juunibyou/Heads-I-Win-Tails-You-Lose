@@ -19,7 +19,7 @@ public class CoinBenchmark {
   double[] p = {0.25, 0.5, 0.75};
   int m = 10;
   Random random;
-
+  
   @Setup
   public void setup() {
     random = new Random();
