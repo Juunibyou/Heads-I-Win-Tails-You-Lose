@@ -12,7 +12,7 @@ class CoinFlipTest {
         double bias = 0.75;
 
         int heads = coinFlip.flipCoins(numFlips, bias);
-        double observed = heads / numFlips;
+        double observed = heads / (double) numFlips;
 
         double tolerance = 0.03;
 
